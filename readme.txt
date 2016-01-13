@@ -23,3 +23,13 @@
 #  git config --global user.name "Your Name"
 git config --global user.email "root@xxmserver.com"
 git config --global user.name "root"
+
+
+#git status
+#git status -- observe the git working dictionary's status
+
+#git diff
+#git diff -- allow you observe the different of two version (current & the lasted committed)
+
+#git log
+@git log -- scan all the version update history 
