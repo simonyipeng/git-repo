@@ -36,3 +36,9 @@ git config --global user.name "root"
 
 #git reset
 #git reset -- git reset with HEAD , which coule help you to rollback to the appointed commit version.
+#example:
+#git reset --hard HEAD^  -- rollback to last version.
+#git reset --hard HEAD^^  -- rollback to the last of last version.
+
+#git reflog
+#git reflog -- log list of all you commited command.
