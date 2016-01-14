@@ -53,6 +53,8 @@ git config --global user.name "root"
 #git reset HEAD means unstage to last version
 
 
+#rm                      --> delete from local disk
+#git rm                  --> delete from local disk and stage
 #git reset --head HEAD^  --> recover master from recycle bin.
 #git reset HEAD -- file  --> recover from master to stage
 #git checkout -- file    --> recover from stage to local file
