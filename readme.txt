@@ -32,4 +32,7 @@ git config --global user.name "root"
 #git diff -- allow you observe the different of two version (current & the lasted committed)
 
 #git log
-@git log -- scan all the version update history 
+#git log -- scan all the version update history 
+
+#git reset
+#git reset -- git reset with HEAD , which coule help you to rollback to the appointed commit version.
