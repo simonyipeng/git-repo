@@ -1,4 +1,4 @@
---git install history
+-git install history
 
 #wget https://github.com/git/git/archive/v2.2.0.tar.gz
 
@@ -42,3 +42,17 @@ git config --global user.name "root"
 
 #git reflog
 #git reflog -- log list of all you commited command.
+
+#git logs direction location
+# .git/logs/refs/heads , in it git saved all the history record of version exchange.
+
+#git checkout -- filename
+#git checkout could drop all of your modification from last commit
+
+#git reset HEAD filename
+#git reset HEAD means unstage to last version
+
+
+#git reset --head HEAD^  --> recover master from recycle bin.
+#git reset HEAD -- file  --> recover from master to stage
+#git checkout -- file    --> recover from stage to local file
