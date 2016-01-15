@@ -58,3 +58,6 @@ git config --global user.name "root"
 #git reset --head HEAD^  --> recover master from recycle bin.
 #git reset HEAD -- file  --> recover from master to stage
 #git checkout -- file    --> recover from stage to local file
+
+
+#github username:simonyipeng passsword:simonyi123456
