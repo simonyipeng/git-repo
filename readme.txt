@@ -60,4 +60,18 @@ git config --global user.name "root"
 #git checkout -- file    --> recover from stage to local file
 
 
-#github username:simonyipeng passsword:simonyi123456
+# git remote add origin git@github.com:simonyipeng/git-repo.git
+# Exec this command in local repo dictionary to associate remote repo with local repo 
+
+# my github username:simonyipeng passsword:simonyi123456
+# my github dict: simonyipeng/git-repo
+
+# git config --global push.default matching
+# update github push mode from 'simple' to 'matching'
+
+
+# git pull origin master
+# pull remote files from remote repo to local repo
+# ATTENTION: Finally, Here we could push local files to remote repo!
+
+# git push -u origin master
